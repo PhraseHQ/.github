@@ -61,6 +61,15 @@ We build Phrase natively and open-source the infrastructure under it:
     with editor-grade views (zero re-rasterization on scroll). It renders
     every formula in Phrase's block editor, on all five Apple platforms.</td>
   </tr>
+  <tr>
+    <td width="220"><a href="https://github.com/PhraseHQ/HighlightKit"><b>HighlightKit</b></a></td>
+    <td>highlight.js-compatible syntax highlighting in pure Swift — no
+    JavaScript, no WebView, no HTML round-trip. 65 languages with
+    token-exact output verified against the reference corpus, adaptive
+    light/dark themes, and ~40 µs/line incremental re-highlighting built
+    for block editors. It highlights every code block in Phrase's AI
+    notes, on all five Apple platforms.</td>
+  </tr>
 </table>
 
 More of our Swift stack is on its way here.
